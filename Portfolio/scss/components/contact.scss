@@ -1,0 +1,53 @@
+//div contact styles
+.contact{
+  text-align: center;
+  padding-top: 35px;
+  padding-bottom: 20px;
+  background:#7e9a9a;
+  
+
+  h2{
+    padding-bottom: 5px;
+    color: white;
+    @include mq(medium){
+      font-size: em(30px);
+    }
+  }
+  ul{
+    list-style-type: none;
+    padding-left: 0;
+    margin-top: em(10px);
+  }
+  li{
+    display: inline;
+  }
+
+}
+
+hr{
+  width: 65%;
+}
+
+.img-num{
+  img{
+    width: 100px;
+    border-radius: 100px;
+    border: 1px solid lightblue;
+    @include mq(medium){
+      width: em(125px);
+    }
+  }
+  a{
+    color: white;
+    display: block;
+    width: 35%;
+    margin: 0 auto;
+    text-decoration: none;
+    border-radius: em(10px);
+    padding: em(10px);
+
+    @include mq(medium){
+      font-size: em(18px);
+    }
+  }
+}

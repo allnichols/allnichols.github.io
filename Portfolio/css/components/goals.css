@@ -1,0 +1,14 @@
+.goals {
+  text-align: center;
+  padding: 35px 0px;
+  border-bottom: 1px solid lightgrey;
+  background-color: white; }
+  .goals p {
+    text-align: center;
+    line-height: 23px; }
+  .goals li {
+    padding: 10px;
+    text-align: left;
+    list-style-type: none; }
+
+/*# sourceMappingURL=goals.css.map */

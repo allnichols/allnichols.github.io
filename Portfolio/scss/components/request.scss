@@ -1,0 +1,18 @@
+//======================
+//Project Request styles
+//======================
+
+
+.project-request{
+  background: #db9833;
+  padding: em(80px);
+  text-align: center;
+    p{
+      color: white;
+      font-size: 15px;
+      margin: em(10px) auto;
+    }
+    button{
+      @extend %button;
+    }
+}
