@@ -1,0 +1,28 @@
+//about div styles
+
+.about{
+  text-align: center;
+  border-bottom: 1px solid lightgrey;
+  padding: 55px 20px;
+  background:#2a6592;
+
+
+  h2{
+    color: white;
+    @include mq(medium){
+      font-size: em(35px);
+    }
+    @include mq(large){
+      font-size: em(40px);
+    }
+}
+  p{
+    color: white;
+    text-align: center;
+    line-height: 23px;
+    @include mq(medium){
+      font-size: em(20px);
+    }
+  }
+
+}

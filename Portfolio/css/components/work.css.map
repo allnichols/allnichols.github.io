@@ -1,0 +1,7 @@
+{
+"version": 3,
+"mappings": "AAEA,KAAK;EACH,UAAU,EAAE,MAAM;EAClB,OAAO,EAAE,QAAQ;EACjB,aAAa,EAAE,mBAAmB;EAClC,gBAAgB,EAAE,KAAK;EAEvB,OAAC;IACC,UAAU,EAAE,MAAM;IAClB,WAAW,EAAE,IAAI;;AAKrB,MAAO;EACL,WAAW,EAAE,IAAI;EACf,UAAG;IACD,MAAM,EAAE,eAAe;;AAI7B,gBAAgB;EACd,UAAU,EAAE,kBAAkB;EAC9B,UAAU,EAAE,GAAG",
+"sources": ["../../scss/components/work.scss"],
+"names": [],
+"file": "work.css"
+}
