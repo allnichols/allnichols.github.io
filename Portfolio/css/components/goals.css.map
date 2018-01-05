@@ -1,7 +1,0 @@
-{
-"version": 3,
-"mappings": "AAEA,MAAM;EACJ,UAAU,EAAE,MAAM;EAClB,OAAO,EAAE,QAAQ;EACjB,aAAa,EAAE,mBAAmB;EAClC,gBAAgB,EAAE,KAAK;EAEvB,QAAC;IACC,UAAU,EAAE,MAAM;IAClB,WAAW,EAAE,IAAI;EAEnB,SAAE;IACA,OAAO,EAAE,IAAI;IACb,UAAU,EAAE,IAAI;IAChB,eAAe,EAAE,IAAI",
-"sources": ["../../scss/components/goals.scss"],
-"names": [],
-"file": "goals.css"
-}
