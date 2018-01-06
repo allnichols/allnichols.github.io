@@ -218,7 +218,7 @@ p {
   font-family: 'Lora', serif; }
 
 img {
-  width: 270px;
+  width: 100%;
   border-radius: 5px; }
 
 .header {
@@ -327,15 +327,6 @@ img {
     .work h2 {
       grid-column: span 3;
       font-size: 2.1875em; } }
-
-.piece {
-  padding: 23px; }
-  .piece img {
-    border: 1px solid black; }
-
-.piece img:hover {
-  box-shadow: 10px 10px 5px rgba(0, 0, 0, 0.5);
-  transition: .7s; }
 
 .goals {
   text-align: center;
@@ -495,5 +486,25 @@ hr {
     color: white;
     font-size: 15px;
     margin: 0.625em auto; }
+
+.piece {
+  position: relative;
+  margin: 23px; }
+
+.overlay-img {
+  color: #fff;
+  position: absolute;
+  background: lightblue;
+  border-radius: 5px;
+  opacity: 0;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  width: 100%;
+  transition: .5s ease; }
+
+.piece:hover .overlay-img {
+  opacity: 1; }
 
 /*# sourceMappingURL=application.css.map */

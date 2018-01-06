@@ -28,15 +28,3 @@
     }
 }
 }
-
-.piece {
-  padding: 23px;
-    img{
-      border: 1px solid black;
-    }
-}
-
-.piece img:hover {
-  box-shadow: 10px 10px 5px $box-shadow;
-  transition: .7s;
-}
