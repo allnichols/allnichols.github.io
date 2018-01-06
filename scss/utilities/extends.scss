@@ -31,5 +31,6 @@
   transition-property:width;
   &:hover{
     width:em(220px);
+    opacity: 1;
   }
 }
