@@ -1,5 +1,5 @@
 /*
-Error: Undefined variable: "$contrail".
+Error: Undefined variable: "$main-font".
         on line 16 of scss/base/base.scss
 
 11:     z-index: 100;
@@ -7,7 +7,7 @@ Error: Undefined variable: "$contrail".
 13:   // grid-template-columns:;
 14: }
 15: h1,h2,h3,h4{
-16:   font-family: $contrail;
+16:   font-family: $main-font;
 17:   letter-spacing: 3.1px;
 18: }
 19: p{
@@ -65,4 +65,4 @@ C:/Ruby24-x64/lib/ruby/gems/2.4.0/gems/sass-4.0.0.alpha.1/vendor/listen/lib/list
 body:before {
   white-space: pre;
   font-family: monospace;
-  content: "Error: Undefined variable: \"$contrail\".\A         on line 16 of scss/base/base.scss\A \A 11:     z-index: 100;\A 12:   // display: grid;\A 13:   // grid-template-columns:;\A 14: }\A 15: h1,h2,h3,h4{\A 16:   font-family: $contrail;\A 17:   letter-spacing: 3.1px;\A 18: }\A 19: p{\A 20:   font-family: 'Lora', serif;\A 21: }"; }
+  content: "Error: Undefined variable: \"$main-font\".\A         on line 16 of scss/base/base.scss\A \A 11:     z-index: 100;\A 12:   // display: grid;\A 13:   // grid-template-columns:;\A 14: }\A 15: h1,h2,h3,h4{\A 16:   font-family: $main-font;\A 17:   letter-spacing: 3.1px;\A 18: }\A 19: p{\A 20:   font-family: 'Lora', serif;\A 21: }"; }

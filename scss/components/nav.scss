@@ -32,7 +32,7 @@
     a{
       color: white;
       text-decoration: none;
-      font-family: $contrail;
+      font-family: $main-font;
         @include mq(medium){
             font-size: em(20px);
         }
