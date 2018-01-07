@@ -1,10 +1,10 @@
 /*
-Error: Undefined variable: "$base".
+Error: Undefined variable: "$base-dark".
         on line 3 of scss/components/header.scss
 
 1: //Header Styles
 2: .header{
-3:   background:$base;
+3:   background:$base-dark;
 4:   text-align: center;
 5:   padding: 13px;
 6:   max-width: 100%;
@@ -62,4 +62,4 @@ C:/Ruby24-x64/lib/ruby/gems/2.4.0/gems/sass-4.0.0.alpha.1/vendor/listen/lib/list
 body:before {
   white-space: pre;
   font-family: monospace;
-  content: "Error: Undefined variable: \"$base\".\A         on line 3 of scss/components/header.scss\A \A 1: //Header Styles\A 2: .header{\A 3:   background:$base;\A 4:   text-align: center;\A 5:   padding: 13px;\A 6:   max-width: 100%;\A 7:   display: grid;\A 8:   grid-template-columns: 1fr 1fr;"; }
+  content: "Error: Undefined variable: \"$base-dark\".\A         on line 3 of scss/components/header.scss\A \A 1: //Header Styles\A 2: .header{\A 3:   background:$base-dark;\A 4:   text-align: center;\A 5:   padding: 13px;\A 6:   max-width: 100%;\A 7:   display: grid;\A 8:   grid-template-columns: 1fr 1fr;"; }

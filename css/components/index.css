@@ -1,5 +1,5 @@
 /*
-Error: Undefined variable: "$base".
+Error: Undefined variable: "$base-dark".
         on line 3 of scss/components/header.scss
         from line 3 of scss/components/index.scss
 
@@ -77,4 +77,4 @@ C:/Ruby24-x64/lib/ruby/gems/2.4.0/gems/sass-4.0.0.alpha.1/vendor/listen/lib/list
 body:before {
   white-space: pre;
   font-family: monospace;
-  content: "Error: Undefined variable: \"$base\".\A         on line 3 of scss/components/header.scss\A         from line 3 of scss/components/index.scss\A \A 1: // component imports //\A 2: \A 3: @import 'header';\A 4: @import 'nav';\A 5: @import 'about';\A 6: @import 'work';\A 7: @import 'goals';\A 8: @import 'contact';"; }
+  content: "Error: Undefined variable: \"$base-dark\".\A         on line 3 of scss/components/header.scss\A         from line 3 of scss/components/index.scss\A \A 1: // component imports //\A 2: \A 3: @import 'header';\A 4: @import 'nav';\A 5: @import 'about';\A 6: @import 'work';\A 7: @import 'goals';\A 8: @import 'contact';"; }

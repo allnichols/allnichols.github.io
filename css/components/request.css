@@ -10,9 +10,9 @@ Error: Undefined variable: "$ocean".
 7:   background: $ocean;
 8:   padding: em(80px);
 9:   text-align: center;
-10:     p{
+10:     h1{
 11:       color: white;
-12:       font-size: 15px;
+12:     }
 
 Backtrace:
 scss/components/request.scss:7
@@ -65,4 +65,4 @@ C:/Ruby24-x64/lib/ruby/gems/2.4.0/gems/sass-4.0.0.alpha.1/vendor/listen/lib/list
 body:before {
   white-space: pre;
   font-family: monospace;
-  content: "Error: Undefined variable: \"$ocean\".\A         on line 7 of scss/components/request.scss\A \A 2: //Project Request styles\A 3: //======================\A 4: \A 5: \A 6: .project-request{\A 7:   background: $ocean;\A 8:   padding: em(80px);\A 9:   text-align: center;\A 10:     p{\A 11:       color: white;\A 12:       font-size: 15px;"; }
+  content: "Error: Undefined variable: \"$ocean\".\A         on line 7 of scss/components/request.scss\A \A 2: //Project Request styles\A 3: //======================\A 4: \A 5: \A 6: .project-request{\A 7:   background: $ocean;\A 8:   padding: em(80px);\A 9:   text-align: center;\A 10:     h1{\A 11:       color: white;\A 12:     }"; }

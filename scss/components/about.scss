@@ -7,13 +7,13 @@
   background:$ocean;
 
 
-  h2{
+  h1{
     color: white;
     @include mq(medium){
       font-size: em(35px);
     }
     @include mq(large){
-      font-size: em(40px);
+      font-size: em(45px);
     }
 }
   p{
