@@ -12,15 +12,34 @@
 
 }
 
+.html,
+.css,
+.sass,
+.js,
+.react{
+  fill:white;
+  width: 35px;
+  transition: .8s;
+}
+
+.html:hover{fill:$ocean;}
+.css:hover{fill:$base;}
+.sass:hover{fill:pink;}
+.js:hover{fill:yellow;}
+.react:hover{fill:lightblue;}
+
+
+
 .svg-icon path:hover{
   fill:$coral;
 
 }
 
 .svg-icon path {
-  fill: black;
+  fill: white;
   padding: 10px;
 }
+
 
 .icon-mail,
 .icon-link,

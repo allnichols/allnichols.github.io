@@ -236,11 +236,6 @@ h1, h2, h3, h4 {
 p {
   font-family: 'Lora', serif; }
 
-img {
-  width: 99%;
-  border-radius: 5px;
-  border: 1px solid lightgrey; }
-
 .header {
   background: rgba(0, 0, 0, 0.5);
   text-align: center;
@@ -340,7 +335,8 @@ img {
     .work {
       display: grid;
       grid-template-columns: 1fr 3fr 3fr 1fr;
-      grid-template-rows: 1fr 1fr; } }
+      grid-template-rows: 1fr 1fr;
+      grid-column-gap: 10px; } }
   .work p {
     text-align: center;
     line-height: 23px; }
@@ -381,7 +377,9 @@ img {
     margin-bottom: 1.5625em; }
 
 hr {
-  width: 65%; }
+  width: 65%;
+  background: lightgrey;
+  border-radius: 5px; }
 
 .img-num img {
   width: 100px;
@@ -412,11 +410,35 @@ hr {
     .svg-icon {
       display: none; } }
 
+.html,
+.css,
+.sass,
+.js,
+.react {
+  fill: white;
+  width: 35px;
+  transition: .8s; }
+
+.html:hover {
+  fill: #2988bc; }
+
+.css:hover {
+  fill: #2f496e; }
+
+.sass:hover {
+  fill: pink; }
+
+.js:hover {
+  fill: yellow; }
+
+.react:hover {
+  fill: lightblue; }
+
 .svg-icon path:hover {
   fill: #ed8c72; }
 
 .svg-icon path {
-  fill: black;
+  fill: white;
   padding: 10px; }
 
 .icon-mail,
@@ -529,6 +551,10 @@ hr {
   @media (min-width: 1100px) {
     .piece {
       width: 70%; } }
+  .piece img {
+    width: 99%;
+    border-radius: 5px;
+    border: 1px solid lightgrey; }
 
 .a {
   grid-column: 2;

@@ -12,13 +12,18 @@
   }
   @include mq(medium){
     width:100%;
-  }
+    }
   @include mq(ipad){
     width:85%;
   }
   @include mq(large){
     width: 70%;
   };
+  img{
+    width: 99%;
+    border-radius: 5px;
+    border: 1px solid lightgrey;
+  }
 }
 
 

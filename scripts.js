@@ -31,3 +31,5 @@ closeBtn.addEventListener("click", () => {
 });
 
 //end of contact overlay
+
+//add js for the tools icons. on page load each will blink for half - a full second.
