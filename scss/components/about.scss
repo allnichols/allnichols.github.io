@@ -2,10 +2,11 @@
 
 .about{
   text-align: center;
-  border-bottom: 1px solid lightgrey;
   padding: 55px 20px;
-  background:$ocean;
-
+  
+  grid-column: 1 / span 3;
+  display: grid;
+  grid-template-columns: 1fr 4fr 1fr;
 
   h1{
     color: white;
@@ -25,4 +26,8 @@
     }
   }
 
+}
+
+.content{
+  grid-column: 2;
 }

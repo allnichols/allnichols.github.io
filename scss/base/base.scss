@@ -1,25 +1,43 @@
 //Base styles and the wrapper.
-// body{
-//   // background: url('https://images.duckduckgo.com/iu/?u=https%3A%2F%2Fhdqwalls.com%2Fwallpapers%2Fgalaxy-stars-4k.jpg&f=1');
-//   // background-repeat: no-repeat;
-//   // background-attachment: fixed;
-//   // background-position: center;
-//   // background-size: cover;
-//
-// }
-.wrapper{
-    z-index: 100;
-  // display: grid;
-  // grid-template-columns:;
+body{
+  background-image: url('https://images.duckduckgo.com/iu/?u=http%3A%2F%2Fwww.swipestation.co.uk%2Fwp-content%2Fuploads%2F2015%2F05%2Fphotodune-5168723-working-desk-m.jpg&f=1');
+  background-attachment: fixed;
+  background-size: cover;
+
 }
+
+.wrapper{
+  width: 100%;
+  text-align: center;
+
+  @include mq(medium){
+    display: grid;
+    grid-template-columns: 1fr 2fr 1fr;
+    grid-template-rows: 1fr;
+  }
+  @include mq(ipad){
+    grid-template-columns: 1fr 3fr 1fr
+  }
+}
+
 h1,h2,h3,h4{
   font-family: $main-font;
   letter-spacing: 3.1px;
 }
-p{
+
+.work-title{
+    grid-column: 1/ span 3;
+    margin:0px;
+    background: white;
+    padding-top: 50px;
+  }
+
+p {
   font-family: 'Lora', serif;
 }
+
   img{
-    width: 100%;
+    width: 99%;
     border-radius: 5px;
+    border: 1px solid lightgrey;
   }

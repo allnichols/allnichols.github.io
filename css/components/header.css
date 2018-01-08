@@ -1,21 +1,26 @@
 /*
-Error: Undefined variable: "$base-dark".
-        on line 3 of scss/components/header.scss
+Error: Undefined mixin 'mq'.
+        on line 14 of scss/components/header.scss, in `mq'
+        from line 14 of scss/components/header.scss
 
-1: //Header Styles
-2: .header{
-3:   background:$base-dark;
-4:   text-align: center;
-5:   padding: 13px;
-6:   max-width: 100%;
-7:   display: grid;
-8:   grid-template-columns: 1fr 1fr;
+9: }
+10: 
+11: .header h4 {
+12:   color: white;
+13:   align-self: center;
+14:   @include mq(medium){
+15:     font-size: em(25px);
+16:   }
+17: }
 
 Backtrace:
-scss/components/header.scss:3
-C:/Ruby24-x64/lib/ruby/gems/2.4.0/gems/sass-4.0.0.alpha.1/lib/sass/script/tree/variable.rb:49:in `_perform'
-C:/Ruby24-x64/lib/ruby/gems/2.4.0/gems/sass-4.0.0.alpha.1/lib/sass/script/tree/node.rb:50:in `perform'
-C:/Ruby24-x64/lib/ruby/gems/2.4.0/gems/sass-4.0.0.alpha.1/lib/sass/tree/visitors/perform.rb:395:in `visit_prop'
+scss/components/header.scss:14:in `mq'
+scss/components/header.scss:14
+C:/Ruby24-x64/lib/ruby/gems/2.4.0/gems/sass-4.0.0.alpha.1/lib/sass/tree/visitors/perform.rb:349:in `block in visit_mixin'
+C:/Ruby24-x64/lib/ruby/gems/2.4.0/gems/sass-4.0.0.alpha.1/lib/sass/stack.rb:98:in `block in with_mixin'
+C:/Ruby24-x64/lib/ruby/gems/2.4.0/gems/sass-4.0.0.alpha.1/lib/sass/stack.rb:115:in `with_frame'
+C:/Ruby24-x64/lib/ruby/gems/2.4.0/gems/sass-4.0.0.alpha.1/lib/sass/stack.rb:98:in `with_mixin'
+C:/Ruby24-x64/lib/ruby/gems/2.4.0/gems/sass-4.0.0.alpha.1/lib/sass/tree/visitors/perform.rb:347:in `visit_mixin'
 C:/Ruby24-x64/lib/ruby/gems/2.4.0/gems/sass-4.0.0.alpha.1/lib/sass/tree/visitors/base.rb:36:in `visit'
 C:/Ruby24-x64/lib/ruby/gems/2.4.0/gems/sass-4.0.0.alpha.1/lib/sass/tree/visitors/perform.rb:158:in `block in visit'
 C:/Ruby24-x64/lib/ruby/gems/2.4.0/gems/sass-4.0.0.alpha.1/lib/sass/stack.rb:79:in `block in with_base'
@@ -62,4 +67,4 @@ C:/Ruby24-x64/lib/ruby/gems/2.4.0/gems/sass-4.0.0.alpha.1/vendor/listen/lib/list
 body:before {
   white-space: pre;
   font-family: monospace;
-  content: "Error: Undefined variable: \"$base-dark\".\A         on line 3 of scss/components/header.scss\A \A 1: //Header Styles\A 2: .header{\A 3:   background:$base-dark;\A 4:   text-align: center;\A 5:   padding: 13px;\A 6:   max-width: 100%;\A 7:   display: grid;\A 8:   grid-template-columns: 1fr 1fr;"; }
+  content: "Error: Undefined mixin 'mq'.\A         on line 14 of scss/components/header.scss, in `mq'\A         from line 14 of scss/components/header.scss\A \A 9: }\A 10: \A 11: .header h4 {\A 12:   color: white;\A 13:   align-self: center;\A 14:   @include mq(medium){\A 15:     font-size: em(25px);\A 16:   }\A 17: }"; }

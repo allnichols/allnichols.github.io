@@ -6,7 +6,7 @@ const close = document.querySelector('.closeBtn');
 
 
 openTag.addEventListener("click", (e)=> {
-    nav.style.height = "30%";
+    nav.style.height = "35%";
 });
 
 close.addEventListener("click", (e)=>{
@@ -29,3 +29,5 @@ btn.addEventListener("click", () => {
 closeBtn.addEventListener("click", () => {
   overlay.style.display = "none";
 });
+
+//end of contact overlay

@@ -1,4 +1,6 @@
 //Navigation styles
+
+//navigatin overlay
 .overlay-nav {
   height:0;
   width: 100%;
@@ -19,6 +21,21 @@
     }
 }
 
+.closebtn{
+  position: absolute;
+  top: 0;
+  right: 25px;
+  font-size: 36px;
+  margin-left: 50px;
+}
+
+.overlay-nav a:hover{
+  color: #f1f1f1;
+}
+
+
+
+//normal navigatin
 .nav{
   display: none;
   @include mq(medium){
@@ -42,18 +59,4 @@
         }
     }
   }
-}
-
-
-
-.closebtn{
-  position: absolute;
-  top: 0;
-  right: 25px;
-  font-size: 36px;
-  margin-left: 50px;
-}
-
-.overlay-nav a:hover{
-  color: #f1f1f1;
 }

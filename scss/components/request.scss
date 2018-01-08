@@ -4,9 +4,10 @@
 
 
 .project-request{
-  background: $ocean;
-  padding: em(80px);
+  padding-top: em(40px);
+  padding-bottom: em(25px);
   text-align: center;
+  grid-column: 1 / span 3;
     h1{
       color: white;
     }
@@ -18,5 +19,6 @@
     }
     button{
       @extend %button;
+      margin-top: 40px;
     }
 }

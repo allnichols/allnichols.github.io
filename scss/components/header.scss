@@ -1,9 +1,9 @@
 //Header Styles
 .header{
-  background:$base-dark;
+  background: rgba(0,0,0,0.5);
   text-align: center;
-  padding: 13px;
-  max-width: 100%;
+  padding: 8px;
+  grid-column: 1/ span 3;
   display: grid;
   grid-template-columns: 1fr 1fr;
 }

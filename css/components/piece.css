@@ -1,24 +1,28 @@
 /*
-Error: Undefined variable: "$ocean".
-        on line 13 of scss/components/piece.scss
+Error: Undefined mixin 'mq'.
+        on line 13 of scss/components/piece.scss, in `mq'
+        from line 13 of scss/components/piece.scss
 
-8: }
-9: 
-10: .img-overlay{
-11:   color: white;
-12:   position: absolute;
-13:   background: $ocean;
-14:   border-radius: 5px;
-15:   opacity: 0;
-16:   top: 0;
-17:   bottom: 0;
-18:   left: 0;
+8:   margin:em(35px) auto;
+9:   h2{
+10:     grid-column: 2/ span 2;
+11:     grid-row: 1;
+12:   }
+13:   @include mq(medium){
+14:     width:100%;
+15:   }
+16:   @include mq(ipad){
+17:     width:85%;
+18:   }
 
 Backtrace:
+scss/components/piece.scss:13:in `mq'
 scss/components/piece.scss:13
-C:/Ruby24-x64/lib/ruby/gems/2.4.0/gems/sass-4.0.0.alpha.1/lib/sass/script/tree/variable.rb:49:in `_perform'
-C:/Ruby24-x64/lib/ruby/gems/2.4.0/gems/sass-4.0.0.alpha.1/lib/sass/script/tree/node.rb:50:in `perform'
-C:/Ruby24-x64/lib/ruby/gems/2.4.0/gems/sass-4.0.0.alpha.1/lib/sass/tree/visitors/perform.rb:395:in `visit_prop'
+C:/Ruby24-x64/lib/ruby/gems/2.4.0/gems/sass-4.0.0.alpha.1/lib/sass/tree/visitors/perform.rb:349:in `block in visit_mixin'
+C:/Ruby24-x64/lib/ruby/gems/2.4.0/gems/sass-4.0.0.alpha.1/lib/sass/stack.rb:98:in `block in with_mixin'
+C:/Ruby24-x64/lib/ruby/gems/2.4.0/gems/sass-4.0.0.alpha.1/lib/sass/stack.rb:115:in `with_frame'
+C:/Ruby24-x64/lib/ruby/gems/2.4.0/gems/sass-4.0.0.alpha.1/lib/sass/stack.rb:98:in `with_mixin'
+C:/Ruby24-x64/lib/ruby/gems/2.4.0/gems/sass-4.0.0.alpha.1/lib/sass/tree/visitors/perform.rb:347:in `visit_mixin'
 C:/Ruby24-x64/lib/ruby/gems/2.4.0/gems/sass-4.0.0.alpha.1/lib/sass/tree/visitors/base.rb:36:in `visit'
 C:/Ruby24-x64/lib/ruby/gems/2.4.0/gems/sass-4.0.0.alpha.1/lib/sass/tree/visitors/perform.rb:158:in `block in visit'
 C:/Ruby24-x64/lib/ruby/gems/2.4.0/gems/sass-4.0.0.alpha.1/lib/sass/stack.rb:79:in `block in with_base'
@@ -65,4 +69,4 @@ C:/Ruby24-x64/lib/ruby/gems/2.4.0/gems/sass-4.0.0.alpha.1/vendor/listen/lib/list
 body:before {
   white-space: pre;
   font-family: monospace;
-  content: "Error: Undefined variable: \"$ocean\".\A         on line 13 of scss/components/piece.scss\A \A 8: }\A 9: \A 10: .img-overlay{\A 11:   color: white;\A 12:   position: absolute;\A 13:   background: $ocean;\A 14:   border-radius: 5px;\A 15:   opacity: 0;\A 16:   top: 0;\A 17:   bottom: 0;\A 18:   left: 0;"; }
+  content: "Error: Undefined mixin 'mq'.\A         on line 13 of scss/components/piece.scss, in `mq'\A         from line 13 of scss/components/piece.scss\A \A 8:   margin:em(35px) auto;\A 9:   h2{\A 10:     grid-column: 2/ span 2;\A 11:     grid-row: 1;\A 12:   }\A 13:   @include mq(medium){\A 14:     width:100%;\A 15:   }\A 16:   @include mq(ipad){\A 17:     width:85%;\A 18:   }"; }

@@ -1,24 +1,28 @@
 /*
-Error: Undefined variable: "$third".
-        on line 7 of scss/components/work.scss
+Error: Undefined mixin 'mq'.
+        on line 9 of scss/components/work.scss, in `mq'
+        from line 9 of scss/components/work.scss
 
-2: 
-3: .work{
 4:   text-align: center;
 5:   padding: 35px 0px;
 6:   border-bottom: 1px solid lightgrey;
-7:   background-color: $third;
-8:   @include mq(medium){
-9:     display: grid;
-10:     grid-template-columns: 1fr 1fr;
-11:   }
-12:   @include mq(large){
+7:   background: white;
+8:   grid-column: 1 / span 3;
+9:   @include mq(medium){
+10:     display: grid;
+11:     grid-template-columns: 1fr 3fr 3fr 1fr;
+12:     grid-template-rows: 1fr 1fr;
+13: 
+14:   }
 
 Backtrace:
-scss/components/work.scss:7
-C:/Ruby24-x64/lib/ruby/gems/2.4.0/gems/sass-4.0.0.alpha.1/lib/sass/script/tree/variable.rb:49:in `_perform'
-C:/Ruby24-x64/lib/ruby/gems/2.4.0/gems/sass-4.0.0.alpha.1/lib/sass/script/tree/node.rb:50:in `perform'
-C:/Ruby24-x64/lib/ruby/gems/2.4.0/gems/sass-4.0.0.alpha.1/lib/sass/tree/visitors/perform.rb:395:in `visit_prop'
+scss/components/work.scss:9:in `mq'
+scss/components/work.scss:9
+C:/Ruby24-x64/lib/ruby/gems/2.4.0/gems/sass-4.0.0.alpha.1/lib/sass/tree/visitors/perform.rb:349:in `block in visit_mixin'
+C:/Ruby24-x64/lib/ruby/gems/2.4.0/gems/sass-4.0.0.alpha.1/lib/sass/stack.rb:98:in `block in with_mixin'
+C:/Ruby24-x64/lib/ruby/gems/2.4.0/gems/sass-4.0.0.alpha.1/lib/sass/stack.rb:115:in `with_frame'
+C:/Ruby24-x64/lib/ruby/gems/2.4.0/gems/sass-4.0.0.alpha.1/lib/sass/stack.rb:98:in `with_mixin'
+C:/Ruby24-x64/lib/ruby/gems/2.4.0/gems/sass-4.0.0.alpha.1/lib/sass/tree/visitors/perform.rb:347:in `visit_mixin'
 C:/Ruby24-x64/lib/ruby/gems/2.4.0/gems/sass-4.0.0.alpha.1/lib/sass/tree/visitors/base.rb:36:in `visit'
 C:/Ruby24-x64/lib/ruby/gems/2.4.0/gems/sass-4.0.0.alpha.1/lib/sass/tree/visitors/perform.rb:158:in `block in visit'
 C:/Ruby24-x64/lib/ruby/gems/2.4.0/gems/sass-4.0.0.alpha.1/lib/sass/stack.rb:79:in `block in with_base'
@@ -65,4 +69,4 @@ C:/Ruby24-x64/lib/ruby/gems/2.4.0/gems/sass-4.0.0.alpha.1/vendor/listen/lib/list
 body:before {
   white-space: pre;
   font-family: monospace;
-  content: "Error: Undefined variable: \"$third\".\A         on line 7 of scss/components/work.scss\A \A 2: \A 3: .work{\A 4:   text-align: center;\A 5:   padding: 35px 0px;\A 6:   border-bottom: 1px solid lightgrey;\A 7:   background-color: $third;\A 8:   @include mq(medium){\A 9:     display: grid;\A 10:     grid-template-columns: 1fr 1fr;\A 11:   }\A 12:   @include mq(large){"; }
+  content: "Error: Undefined mixin 'mq'.\A         on line 9 of scss/components/work.scss, in `mq'\A         from line 9 of scss/components/work.scss\A \A 4:   text-align: center;\A 5:   padding: 35px 0px;\A 6:   border-bottom: 1px solid lightgrey;\A 7:   background: white;\A 8:   grid-column: 1 / span 3;\A 9:   @include mq(medium){\A 10:     display: grid;\A 11:     grid-template-columns: 1fr 3fr 3fr 1fr;\A 12:     grid-template-rows: 1fr 1fr;\A 13: \A 14:   }"; }

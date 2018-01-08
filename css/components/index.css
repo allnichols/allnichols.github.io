@@ -1,23 +1,23 @@
 /*
-Error: Undefined variable: "$base-dark".
-        on line 3 of scss/components/header.scss
+Error: Undefined mixin 'mq'.
+        on line 14 of scss/components/header.scss, in `mq'
+        from line 14 of scss/components/header.scss
         from line 3 of scss/components/index.scss
 
-1: // component imports //
-2: 
-3: @import 'header';
-4: @import 'nav';
-5: @import 'about';
-6: @import 'work';
-7: @import 'goals';
-8: @import 'contact';
+9: @import 'svg';
+10: @import "form";
+11: @import "request";
+12: @import "piece";
 
 Backtrace:
-scss/components/header.scss:3
+scss/components/header.scss:14:in `mq'
+scss/components/header.scss:14
 scss/components/index.scss:3
-C:/Ruby24-x64/lib/ruby/gems/2.4.0/gems/sass-4.0.0.alpha.1/lib/sass/script/tree/variable.rb:49:in `_perform'
-C:/Ruby24-x64/lib/ruby/gems/2.4.0/gems/sass-4.0.0.alpha.1/lib/sass/script/tree/node.rb:50:in `perform'
-C:/Ruby24-x64/lib/ruby/gems/2.4.0/gems/sass-4.0.0.alpha.1/lib/sass/tree/visitors/perform.rb:395:in `visit_prop'
+C:/Ruby24-x64/lib/ruby/gems/2.4.0/gems/sass-4.0.0.alpha.1/lib/sass/tree/visitors/perform.rb:349:in `block in visit_mixin'
+C:/Ruby24-x64/lib/ruby/gems/2.4.0/gems/sass-4.0.0.alpha.1/lib/sass/stack.rb:98:in `block in with_mixin'
+C:/Ruby24-x64/lib/ruby/gems/2.4.0/gems/sass-4.0.0.alpha.1/lib/sass/stack.rb:115:in `with_frame'
+C:/Ruby24-x64/lib/ruby/gems/2.4.0/gems/sass-4.0.0.alpha.1/lib/sass/stack.rb:98:in `with_mixin'
+C:/Ruby24-x64/lib/ruby/gems/2.4.0/gems/sass-4.0.0.alpha.1/lib/sass/tree/visitors/perform.rb:347:in `visit_mixin'
 C:/Ruby24-x64/lib/ruby/gems/2.4.0/gems/sass-4.0.0.alpha.1/lib/sass/tree/visitors/base.rb:36:in `visit'
 C:/Ruby24-x64/lib/ruby/gems/2.4.0/gems/sass-4.0.0.alpha.1/lib/sass/tree/visitors/perform.rb:158:in `block in visit'
 C:/Ruby24-x64/lib/ruby/gems/2.4.0/gems/sass-4.0.0.alpha.1/lib/sass/stack.rb:79:in `block in with_base'
@@ -77,4 +77,4 @@ C:/Ruby24-x64/lib/ruby/gems/2.4.0/gems/sass-4.0.0.alpha.1/vendor/listen/lib/list
 body:before {
   white-space: pre;
   font-family: monospace;
-  content: "Error: Undefined variable: \"$base-dark\".\A         on line 3 of scss/components/header.scss\A         from line 3 of scss/components/index.scss\A \A 1: // component imports //\A 2: \A 3: @import 'header';\A 4: @import 'nav';\A 5: @import 'about';\A 6: @import 'work';\A 7: @import 'goals';\A 8: @import 'contact';"; }
+  content: "Error: Undefined mixin 'mq'.\A         on line 14 of scss/components/header.scss, in `mq'\A         from line 14 of scss/components/header.scss\A         from line 3 of scss/components/index.scss\A \A 9: @import 'svg';\A 10: @import \"form\";\A 11: @import \"request\";\A 12: @import \"piece\";"; }

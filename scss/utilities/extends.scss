@@ -17,7 +17,7 @@
 %button{
   display: block;
   border:none;
-  margin:em(15px) auto;
+  margin:0 auto;
   padding: em(10px);
   width: 25%;
   border-radius: em(5px);
@@ -30,6 +30,5 @@
   transition-property:width;
   &:hover{
     width:em(220px);
-    opacity: 1;
   }
 }

@@ -3,9 +3,8 @@
   text-align: center;
   padding-top: 35px;
   padding-bottom: 20px;
-  background:$base;
-
-
+  background:rgba(0,0,0,0.6);
+  grid-column: 1 / span 3;
   h2{
     padding-bottom: 5px;
     color: white;
@@ -21,7 +20,10 @@
   li{
     display: inline;
   }
-
+  hr{
+    width: 30%;
+    margin-bottom: em(25px);
+  }
 }
 
 hr{

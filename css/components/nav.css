@@ -1,23 +1,23 @@
 /*
 Error: Undefined mixin 'mq'.
-        on line 24 of scss/components/nav.scss, in `mq'
-        from line 24 of scss/components/nav.scss
+        on line 41 of scss/components/nav.scss, in `mq'
+        from line 41 of scss/components/nav.scss
 
-19:     }
-20: }
-21: 
-22: .nav{
-23:   display: none;
-24:   @include mq(medium){
-25:     display:block;
-26:     align-self: center;
-27:     justify-content: start;
-28:   }
-29:   li{
+36: 
+37: 
+38: //normal navigatin
+39: .nav{
+40:   display: none;
+41:   @include mq(medium){
+42:     display:block;
+43:     align-self: center;
+44:     justify-content: start;
+45:   }
+46:   li{
 
 Backtrace:
-scss/components/nav.scss:24:in `mq'
-scss/components/nav.scss:24
+scss/components/nav.scss:41:in `mq'
+scss/components/nav.scss:41
 C:/Ruby24-x64/lib/ruby/gems/2.4.0/gems/sass-4.0.0.alpha.1/lib/sass/tree/visitors/perform.rb:349:in `block in visit_mixin'
 C:/Ruby24-x64/lib/ruby/gems/2.4.0/gems/sass-4.0.0.alpha.1/lib/sass/stack.rb:98:in `block in with_mixin'
 C:/Ruby24-x64/lib/ruby/gems/2.4.0/gems/sass-4.0.0.alpha.1/lib/sass/stack.rb:115:in `with_frame'
@@ -69,4 +69,4 @@ C:/Ruby24-x64/lib/ruby/gems/2.4.0/gems/sass-4.0.0.alpha.1/vendor/listen/lib/list
 body:before {
   white-space: pre;
   font-family: monospace;
-  content: "Error: Undefined mixin 'mq'.\A         on line 24 of scss/components/nav.scss, in `mq'\A         from line 24 of scss/components/nav.scss\A \A 19:     }\A 20: }\A 21: \A 22: .nav{\A 23:   display: none;\A 24:   @include mq(medium){\A 25:     display:block;\A 26:     align-self: center;\A 27:     justify-content: start;\A 28:   }\A 29:   li{"; }
+  content: "Error: Undefined mixin 'mq'.\A         on line 41 of scss/components/nav.scss, in `mq'\A         from line 41 of scss/components/nav.scss\A \A 36: \A 37: \A 38: //normal navigatin\A 39: .nav{\A 40:   display: none;\A 41:   @include mq(medium){\A 42:     display:block;\A 43:     align-self: center;\A 44:     justify-content: start;\A 45:   }\A 46:   li{"; }

@@ -4,27 +4,16 @@
   text-align: center;
   padding: 35px 0px;
   border-bottom: 1px solid lightgrey;
-  background-color: $third;
+  background: white;
+  grid-column: 1 / span 3;
   @include mq(medium){
     display: grid;
-    grid-template-columns: 1fr 1fr;
-  }
-  @include mq(large){
-    display: grid;
-    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-columns: 1fr 3fr 3fr 1fr;
+    grid-template-rows: 1fr 1fr;
+
   }
   p{
     text-align: center;
     line-height: 23px;
   }
-  h2{
-    @include mq(medium){
-      grid-column:span 2 ;
-      font-size: em(30px);
-    }
-    @include mq(large){
-      grid-column:span 3 ;
-      font-size: em(30px);
-    }
-}
 }
