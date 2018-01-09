@@ -5,9 +5,8 @@ Error: Undefined mixin 'mq'.
         from line 3 of scss/components/index.scss
 
 9: @import 'svg';
-10: @import "form";
-11: @import "request";
-12: @import "piece";
+10: @import "request";
+11: @import "piece";
 
 Backtrace:
 scss/components/header.scss:14:in `mq'
@@ -77,4 +76,4 @@ C:/Ruby24-x64/lib/ruby/gems/2.4.0/gems/sass-4.0.0.alpha.1/vendor/listen/lib/list
 body:before {
   white-space: pre;
   font-family: monospace;
-  content: "Error: Undefined mixin 'mq'.\A         on line 14 of scss/components/header.scss, in `mq'\A         from line 14 of scss/components/header.scss\A         from line 3 of scss/components/index.scss\A \A 9: @import 'svg';\A 10: @import \"form\";\A 11: @import \"request\";\A 12: @import \"piece\";"; }
+  content: "Error: Undefined mixin 'mq'.\A         on line 14 of scss/components/header.scss, in `mq'\A         from line 14 of scss/components/header.scss\A         from line 3 of scss/components/index.scss\A \A 9: @import 'svg';\A 10: @import \"request\";\A 11: @import \"piece\";"; }
