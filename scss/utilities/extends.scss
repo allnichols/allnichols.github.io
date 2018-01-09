@@ -2,57 +2,8 @@
 //Extends
 //========
 
-%input{
-  padding: em(8px);
-  margin: em(14px);
-  display: block;
-  margin: em(10px) auto;
-  border-radius: em(5px);
-  border: 1px solid #c2c2d6;
-  transition: .5s ease;
-  transition-property: border;
-  outline: none;
-  &:focus{
-    border-color: $ocean;
-  }
-  @include mq(ipad){
-    width: 55%;
-  }
-}
-
-%textarea {
-  border-radius: em(5px);
-  border: 1px solid #c2c2d6;
-  transition: .5s ease;
-  transition-property: border-color;
-  outline: none;
-  @include mq(ipad){
-    width: 56.2%;
-  }
-  &:focus{
-    border-color: $ocean;
-  }
-}
 
 
-%send-btn{
-  display: block;
-  border:1px solid lightgrey;
-  margin:em(10px) auto;
-  padding: em(10px);
-  border-radius: em(5px);
-  background: white;
-  width: 20%;
-  font-size: em(17px);
-  font-weight: bold;
-  font-family:$main-font;
-  transition:.7s ease;
-  transition-property:width, border-color;
-  &:hover{
-    width: 30%;
-    border-color: $ocean;
-  }
-}
 
 %button{
   display: block;
