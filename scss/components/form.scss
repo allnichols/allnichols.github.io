@@ -80,16 +80,12 @@ background:white;
     @extend %input;
   }
   textarea{
-    border-radius: em(5px);
-    border: 1px solid #c2c2d6;
-    @include mq(ipad){
-      width: 56.2%;
-    }
+  @extend %textarea;
   }
   fieldset {
 	   border: none;
     }
     button{
-      @extend %button;
+      @extend %send-btn;
     }
 }

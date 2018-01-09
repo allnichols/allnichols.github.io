@@ -4,12 +4,46 @@
   display: block;
   margin: 0.625em auto;
   border-radius: 0.3125em;
-  border: 1px solid #c2c2d6; }
+  border: 1px solid #c2c2d6;
+  transition: .5s ease;
+  transition-property: border;
+  outline: none; }
+  .form input:focus {
+    border-color: #2988bc; }
   @media (min-width: 1000px) {
     .form input {
       width: 55%; } }
 
-.form button, .project-request button, .img-overlay-content button {
+.form textarea {
+  border-radius: 0.3125em;
+  border: 1px solid #c2c2d6;
+  transition: .5s ease;
+  transition-property: border-color;
+  outline: none; }
+  @media (min-width: 1000px) {
+    .form textarea {
+      width: 56.2%; } }
+  .form textarea:focus {
+    border-color: #2988bc; }
+
+.form button {
+  display: block;
+  border: 1px solid lightgrey;
+  margin: 0.625em auto;
+  padding: 0.625em;
+  border-radius: 0.3125em;
+  background: white;
+  width: 20%;
+  font-size: 1.0625em;
+  font-weight: bold;
+  font-family: "Source Serif Pro", serif;
+  transition: .7s ease;
+  transition-property: width, border-color; }
+  .form button:hover {
+    width: 30%;
+    border-color: #2988bc; }
+
+.project-request button, .img-overlay-content button {
   display: block;
   border: none;
   margin: 0 auto;
@@ -23,7 +57,7 @@
   font-family: "Source Serif Pro", serif;
   transition: .7s ease;
   transition-property: width; }
-  .form button:hover, .project-request button:hover, .img-overlay-content button:hover {
+  .project-request button:hover, .img-overlay-content button:hover {
     width: 13.75em; }
 
 html {
@@ -512,12 +546,6 @@ hr {
 .form h3 {
   color: black;
   text-transform: capitalize; }
-.form textarea {
-  border-radius: 0.3125em;
-  border: 1px solid #c2c2d6; }
-  @media (min-width: 1000px) {
-    .form textarea {
-      width: 56.2%; } }
 .form fieldset {
   border: none; }
 
