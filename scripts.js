@@ -15,22 +15,11 @@ close.addEventListener("click", (e)=>{
 
 //end of navigation/overlay functionallity
 
-//Contact overlay
 
-const btn       = document.querySelector('.contact-btn');
-const overlay   = document.querySelector('.form-overlay');
-const form      = document.querySelector('.form-div');
-const closeBtn  = document.querySelector('.modal-close')
-
-
-btn.addEventListener("click", () => {
-  overlay.style.display = "block";
-});
-
-closeBtn.addEventListener("click", () => {
-  overlay.style.display = "none";
-});
-
-//end of contact overlay
 
 //add js for the tools icons. on page load each will blink for half - a full second.
+// document.getElementById("#").addEventListener("load", myFunction);
+//
+// function myFunction() {
+//     document.getElementById("#").innerHTML = "Did some stuff.";
+// }

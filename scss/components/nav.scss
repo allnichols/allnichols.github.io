@@ -35,7 +35,7 @@
 
 
 
-//normal navigatin
+//normal navigation
 .nav{
   display: none;
   @include mq(medium){
@@ -46,17 +46,19 @@
   li{
     display: inline;
     padding: 13px;
+    transition: .5s ease;
     a{
       color: white;
       text-decoration: none;
       font-family: $main-font;
         transition:.5s;
-      &:hover{
-         color:$coral;
-      }
+
         @include mq(medium){
             font-size: em(20px);
         }
+    }
+    &:hover{
+       border-bottom: 1px solid $coral;
     }
   }
 }

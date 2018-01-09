@@ -277,17 +277,18 @@ p {
       justify-content: start; } }
   .nav li {
     display: inline;
-    padding: 13px; }
+    padding: 13px;
+    transition: .5s ease; }
     .nav li a {
       color: white;
       text-decoration: none;
       font-family: "Source Serif Pro", serif;
       transition: .5s; }
-      .nav li a:hover {
-        color: #ed8c72; }
       @media (min-width: 768px) {
         .nav li a {
           font-size: 1.25em; } }
+    .nav li:hover {
+      border-bottom: 1px solid #ed8c72; }
 
 .about {
   text-align: center;
