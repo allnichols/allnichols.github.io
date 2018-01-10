@@ -1,11 +1,6 @@
 //===========
 //Mixins
-//===========
-//CSS Grid System====/
-
-
-
-//Media Queries
+//==========
 @mixin mq($break) {
   @if $break == "small" {
     @media (min-width: $brk-sm) {
