@@ -18,8 +18,9 @@
 .js,
 .react{
   fill:white;
-  width: 35px;
+  width: 30px;
   transition: .8s;
+  padding: em(3px);
 }
 
 .html:hover{fill:$ocean;}

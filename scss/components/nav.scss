@@ -51,14 +51,14 @@
       color: white;
       text-decoration: none;
       font-family: $main-font;
-        transition:.5s;
+      transition:.5s;
 
         @include mq(medium){
             font-size: em(20px);
         }
     }
     &:hover{
-       border-bottom: 1px solid $coral;
+       border-bottom: 1.5px solid $coral;
     }
   }
 }

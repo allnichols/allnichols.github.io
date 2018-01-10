@@ -290,7 +290,7 @@ p {
         .nav li a {
           font-size: 1.25em; } }
     .nav li:hover {
-      border-bottom: 1px solid #ed8c72; }
+      border-bottom: 1.5px solid #ed8c72; }
 
 .about {
   text-align: center;
@@ -408,8 +408,9 @@ hr {
 .js,
 .react {
   fill: white;
-  width: 35px;
-  transition: .8s; }
+  width: 30px;
+  transition: .8s;
+  padding: 0.1875em; }
 
 .html:hover {
   fill: #2988bc; }
