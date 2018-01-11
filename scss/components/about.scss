@@ -3,7 +3,7 @@
 .about{
   text-align: center;
   padding: 55px 20px;
-  
+
   grid-column: 1 / span 3;
   display: grid;
   grid-template-columns: 1fr 4fr 1fr;
@@ -26,6 +26,14 @@
     }
   }
 
+}
+
+.icons{
+  svg{
+    fill:white;
+    width: 30px;
+    padding: em(3px);
+  }
 }
 
 .content{

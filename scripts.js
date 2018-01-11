@@ -17,27 +17,29 @@ close.addEventListener("click", (e)=>{
 
 
 
-//icons functionallity
+//icons functionallity.
+//needs refactoring.
+//think for loops and adding class attributes with their values.
 const html = document.querySelector('.html')
-html.addEventListener("load", ()=> html.style.animation = "change 1s ease-in-out .5s");
+html.addEventListener("load", ()=> html.style.animation = "change .8s ease-in-out .5s");
 
 const css = document.querySelector('.css');
-css.addEventListener("load", ()=> css.style.animation = "change 1s ease-in-out .9s");
+css.addEventListener("load", ()=> css.style.animation = "change .8s ease-in-out .9s");
 
 const sass = document.querySelector('.sass');
 sass.addEventListener("load", ()=>{
-  sass.style.animation = "change 1s ease-in-out 1.3s";
+  sass.style.animation = "change .8s ease-in-out 1.3s";
   //add color change
 });
 
 const js = document.querySelector('.js');
 js.addEventListener("load", ()=>{
-  js.style.animation = "change 1s ease-in-out 1.7s";
+  js.style.animation = "change .8s ease-in-out 1.7s";
   //add color change
 });
 
 const react = document.querySelector('.react');
 react.addEventListener("load", ()=>{
-  react.style.animation = "change 1s ease-in-out 2.1s";
+  react.style.animation = "change .8s ease-in-out 2.1s";
   //add color change
 });

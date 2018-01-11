@@ -314,6 +314,11 @@ p {
       .about p {
         font-size: 1.25em; } }
 
+.icons svg {
+  fill: white;
+  width: 30px;
+  padding: 0.1875em; }
+
 .content {
   grid-column: 2; }
 
@@ -401,15 +406,6 @@ hr {
   @media (min-width: 768px) {
     .svg-icon {
       display: none; } }
-
-.html,
-.css,
-.sass,
-.js,
-.react {
-  fill: white;
-  width: 30px;
-  padding: 0.1875em; }
 
 .svg-icon path:hover {
   fill: #ed8c72; }
