@@ -18,8 +18,16 @@ close.addEventListener("click", (e)=>{
 
 
 //add js for the tools icons. on page load each will blink for half - a full second.
-// document.getElementById("#").addEventListener("load", myFunction);
-//
-// function myFunction() {
-//     document.getElementById("#").innerHTML = "Did some stuff.";
-// }
+const icons = document.getElementsByClassName("load");
+
+
+
+const html = document.querySelector('.html');
+const css = document.querySelector('.css');
+const sass = document.querySelector('.sass');
+const js = document.querySelector('.js');
+const react = document.querySelector('.react');
+
+document.getElementsByTagName('body')[0].addEventListener("load", ()=> html.classList.add());
+
+console.log(html, css, sass, js, react);

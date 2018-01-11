@@ -409,23 +409,7 @@ hr {
 .react {
   fill: white;
   width: 30px;
-  transition: .8s;
   padding: 0.1875em; }
-
-.html:hover {
-  fill: #2988bc; }
-
-.css:hover {
-  fill: #2f496e; }
-
-.sass:hover {
-  fill: pink; }
-
-.js:hover {
-  fill: yellow; }
-
-.react:hover {
-  fill: lightblue; }
 
 .svg-icon path:hover {
   fill: #ed8c72; }
