@@ -17,17 +17,27 @@ close.addEventListener("click", (e)=>{
 
 
 
-//add js for the tools icons. on page load each will blink for half - a full second.
-const icons = document.getElementsByClassName("load");
+//icons functionallity
+const html = document.querySelector('.html')
+html.addEventListener("load", ()=> html.style.animation = "change 1s ease-in-out .5s");
 
-
-
-const html = document.querySelector('.html');
 const css = document.querySelector('.css');
+css.addEventListener("load", ()=> css.style.animation = "change 1s ease-in-out .9s");
+
 const sass = document.querySelector('.sass');
+sass.addEventListener("load", ()=>{
+  sass.style.animation = "change 1s ease-in-out 1.3s";
+  //add color change
+});
+
 const js = document.querySelector('.js');
+js.addEventListener("load", ()=>{
+  js.style.animation = "change 1s ease-in-out 1.7s";
+  //add color change
+});
+
 const react = document.querySelector('.react');
-
-document.getElementsByTagName('body')[0].addEventListener("load", ()=> html.classList.add());
-
-console.log(html, css, sass, js, react);
+react.addEventListener("load", ()=>{
+  react.style.animation = "change 1s ease-in-out 2.1s";
+  //add color change
+});

@@ -507,4 +507,12 @@ hr {
   .img-overlay-content h2 {
     font-size: 25px; }
 
+@keyframes change {
+  0% {
+    fill: white; }
+  25% {
+    fill: #2988bc; }
+  100% {
+    fill: white; } }
+
 /*# sourceMappingURL=application.css.map */
