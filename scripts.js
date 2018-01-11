@@ -20,6 +20,7 @@ close.addEventListener("click", (e)=>{
 //icons functionallity.
 //needs refactoring.
 //think for loops and adding class attributes with their values.
+//change the addEventListener to mouse over the icons div.
 const html = document.querySelector('.html')
 html.addEventListener("load", ()=> html.style.animation = "change .8s ease-in-out .5s");
 
