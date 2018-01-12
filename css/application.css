@@ -440,6 +440,9 @@ hr {
     margin: 0.625em auto; }
   .project-request button {
     margin-top: 40px; }
+    .project-request button a {
+      color: black;
+      text-decoration: none; }
 
 .piece {
   position: relative;

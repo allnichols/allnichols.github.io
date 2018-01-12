@@ -20,5 +20,9 @@
     button{
       @extend %button;
       margin-top: 40px;
+      a{
+        color: black;
+        text-decoration: none;
+      }
     }
 }
