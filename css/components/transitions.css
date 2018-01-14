@@ -1,16 +1,18 @@
 /*
 Error: Undefined variable: "$ocean".
-        on line 4 of scss/components/transitions.scss
+        on line 3 of scss/components/transitions.scss
 
-1: 
-2: @keyframes change {
-3:   0%{fill:white;}
-4:   25%{fill:$ocean;}
-5:   100%{fill:white;}
-6: }
+1: @keyframes change {
+2:   0%{fill:white;}
+3:   25%{fill:$ocean;}
+4:   100%{fill:white;}
+5: }
+6: 
+7: 
+8: @keyframes spin {
 
 Backtrace:
-scss/components/transitions.scss:4
+scss/components/transitions.scss:3
 C:/Ruby24-x64/lib/ruby/gems/2.4.0/gems/sass-4.0.0.alpha.1/lib/sass/script/tree/variable.rb:49:in `_perform'
 C:/Ruby24-x64/lib/ruby/gems/2.4.0/gems/sass-4.0.0.alpha.1/lib/sass/script/tree/node.rb:50:in `perform'
 C:/Ruby24-x64/lib/ruby/gems/2.4.0/gems/sass-4.0.0.alpha.1/lib/sass/tree/visitors/perform.rb:395:in `visit_prop'
@@ -71,4 +73,4 @@ C:/Ruby24-x64/lib/ruby/gems/2.4.0/gems/sass-4.0.0.alpha.1/vendor/listen/lib/list
 body:before {
   white-space: pre;
   font-family: monospace;
-  content: "Error: Undefined variable: \"$ocean\".\A         on line 4 of scss/components/transitions.scss\A \A 1: \A 2: @keyframes change {\A 3:   0%{fill:white;}\A 4:   25%{fill:$ocean;}\A 5:   100%{fill:white;}\A 6: }"; }
+  content: "Error: Undefined variable: \"$ocean\".\A         on line 3 of scss/components/transitions.scss\A \A 1: @keyframes change {\A 2:   0%{fill:white;}\A 3:   25%{fill:$ocean;}\A 4:   100%{fill:white;}\A 5: }\A 6: \A 7: \A 8: @keyframes spin {"; }

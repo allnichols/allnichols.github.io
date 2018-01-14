@@ -4,13 +4,20 @@
 
 //Base Color Variables
 $base     : #2f496e;
-
 $ocean    : #2988bc;
 $third    : #f4eade;
 $coral    : #ed8c72;
 $box-shadow: rgba(0, 0, 0, 0.5);
 $comp     : complement($coral);
 $base-dark: darken($base, 5%);
+
+$icons: (
+  'html': $ocean,
+  'css': $coral,
+  'sass': pink,
+  'js': yellow,
+  'react': green,
+);
 
 //End of Colors
 

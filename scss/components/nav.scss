@@ -1,5 +1,24 @@
 //Navigation styles
 
+#toTop{
+  opacity: 0;
+  position: fixed;
+  bottom: em(20px);
+  right: em(30px);
+  z-index: 99;
+  border: none;
+  outline: none;
+  background-color: $base;
+  color: white;
+  cursor: pointer;
+  padding: em(15px);
+  border-radius: em(10px);
+  transition:.8s;
+  &:hover{
+   background-color: $ocean;
+}
+}
+
 //navigatin overlay
 .overlay-nav {
   height:0;

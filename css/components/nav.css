@@ -1,28 +1,24 @@
 /*
-Error: Undefined mixin 'mq'.
-        on line 41 of scss/components/nav.scss, in `mq'
-        from line 41 of scss/components/nav.scss
+Error: Undefined variable: "$base".
+        on line 11 of scss/components/nav.scss
 
-36: 
-37: 
-38: //normal navigation
-39: .nav{
-40:   display: none;
-41:   @include mq(medium){
-42:     display:block;
-43:     align-self: center;
-44:     justify-content: start;
-45:   }
-46:   li{
+6:   bottom: em(20px);
+7:   right: em(30px);
+8:   z-index: 99;
+9:   border: none;
+10:   outline: none;
+11:   background-color: $base;
+12:   color: white;
+13:   cursor: pointer;
+14:   padding: em(15px);
+15:   border-radius: em(10px);
+16:   transition:.8s;
 
 Backtrace:
-scss/components/nav.scss:41:in `mq'
-scss/components/nav.scss:41
-C:/Ruby24-x64/lib/ruby/gems/2.4.0/gems/sass-4.0.0.alpha.1/lib/sass/tree/visitors/perform.rb:349:in `block in visit_mixin'
-C:/Ruby24-x64/lib/ruby/gems/2.4.0/gems/sass-4.0.0.alpha.1/lib/sass/stack.rb:98:in `block in with_mixin'
-C:/Ruby24-x64/lib/ruby/gems/2.4.0/gems/sass-4.0.0.alpha.1/lib/sass/stack.rb:115:in `with_frame'
-C:/Ruby24-x64/lib/ruby/gems/2.4.0/gems/sass-4.0.0.alpha.1/lib/sass/stack.rb:98:in `with_mixin'
-C:/Ruby24-x64/lib/ruby/gems/2.4.0/gems/sass-4.0.0.alpha.1/lib/sass/tree/visitors/perform.rb:347:in `visit_mixin'
+scss/components/nav.scss:11
+C:/Ruby24-x64/lib/ruby/gems/2.4.0/gems/sass-4.0.0.alpha.1/lib/sass/script/tree/variable.rb:49:in `_perform'
+C:/Ruby24-x64/lib/ruby/gems/2.4.0/gems/sass-4.0.0.alpha.1/lib/sass/script/tree/node.rb:50:in `perform'
+C:/Ruby24-x64/lib/ruby/gems/2.4.0/gems/sass-4.0.0.alpha.1/lib/sass/tree/visitors/perform.rb:395:in `visit_prop'
 C:/Ruby24-x64/lib/ruby/gems/2.4.0/gems/sass-4.0.0.alpha.1/lib/sass/tree/visitors/base.rb:36:in `visit'
 C:/Ruby24-x64/lib/ruby/gems/2.4.0/gems/sass-4.0.0.alpha.1/lib/sass/tree/visitors/perform.rb:158:in `block in visit'
 C:/Ruby24-x64/lib/ruby/gems/2.4.0/gems/sass-4.0.0.alpha.1/lib/sass/stack.rb:79:in `block in with_base'
@@ -69,4 +65,4 @@ C:/Ruby24-x64/lib/ruby/gems/2.4.0/gems/sass-4.0.0.alpha.1/vendor/listen/lib/list
 body:before {
   white-space: pre;
   font-family: monospace;
-  content: "Error: Undefined mixin 'mq'.\A         on line 41 of scss/components/nav.scss, in `mq'\A         from line 41 of scss/components/nav.scss\A \A 36: \A 37: \A 38: //normal navigation\A 39: .nav{\A 40:   display: none;\A 41:   @include mq(medium){\A 42:     display:block;\A 43:     align-self: center;\A 44:     justify-content: start;\A 45:   }\A 46:   li{"; }
+  content: "Error: Undefined variable: \"$base\".\A         on line 11 of scss/components/nav.scss\A \A 6:   bottom: em(20px);\A 7:   right: em(30px);\A 8:   z-index: 99;\A 9:   border: none;\A 10:   outline: none;\A 11:   background-color: $base;\A 12:   color: white;\A 13:   cursor: pointer;\A 14:   padding: em(15px);\A 15:   border-radius: em(10px);\A 16:   transition:.8s;"; }

@@ -15,12 +15,27 @@ close.addEventListener("click", (e)=>{
 
 //end of navigation/overlay functionallity
 
+//Back to top button
+const topBtn = document.getElementById('toTop');
+
+window.onscroll = function(){scroll()};
+
+function scroll(){
+  if(document.body.scrollTop > 20 || document.documentElement.scrollTop > 20){
+    topBtn.style.opacity = "1";
+  } else {
+    topBtn.style.opacity = "0";
+  }
+}
+
+topBtn.addEventListener("click", (e)=> {
+  document.body.scrollTop = 0;
+  document.documentElement.scrollTop = 0;
+})
 
 
 //icons functionallity.
-//needs refactoring.
-//think for loops and adding class attributes with their values.
-//change the addEventListener to mouse over the icons div.
+
 const html = document.querySelector('.html')
 html.addEventListener("load", ()=> html.style.animation = "change .8s ease-in-out .5s");
 
@@ -30,17 +45,16 @@ css.addEventListener("load", ()=> css.style.animation = "change .8s ease-in-out 
 const sass = document.querySelector('.sass');
 sass.addEventListener("load", ()=>{
   sass.style.animation = "change .8s ease-in-out 1.3s";
-  //add color change
 });
 
 const js = document.querySelector('.js');
 js.addEventListener("load", ()=>{
   js.style.animation = "change .8s ease-in-out 1.7s";
-  //add color change
 });
 
 const react = document.querySelector('.react');
+const circle = document.querySelector('circle');
 react.addEventListener("load", ()=>{
-  react.style.animation = "change .8s ease-in-out 2.1s";
-  //add color change
+  react.style.animation = "spin .8s ease-in-out 2.1s";
+  circle.style.fill = "white";
 });

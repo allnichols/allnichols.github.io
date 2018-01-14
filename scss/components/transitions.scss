@@ -1,6 +1,18 @@
-
 @keyframes change {
   0%{fill:white;}
   25%{fill:$ocean;}
   100%{fill:white;}
 }
+
+
+@keyframes spin {
+  0%{fill:white;
+    transform: rotate(360deg);
+  }
+  25%{fill:lightgreen;}
+  50%{fill:lightgreen;}
+  100%{fill:white;}
+}
+
+
+//figure out the for loop for colors and keyframes.
