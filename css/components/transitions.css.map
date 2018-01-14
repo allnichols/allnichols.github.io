@@ -1,7 +1,7 @@
 {
 "version": 3,
-"mappings": "",
-"sources": [],
+"mappings": "AAOA,eAOC;EANC,EAAE;IAAC,IAAI,EAAC,KAAK;IACX,SAAS,EAAE,cAAc;EAE3B,GAAG;IAAC,IAAI,EAAC,UAAU;EACnB,GAAG;IAAC,IAAI,EAAC,UAAU;EACnB,IAAI;IAAC,IAAI,EAAC,KAAK",
+"sources": ["../../scss/components/transitions.scss"],
 "names": [],
 "file": "transitions.css"
 }

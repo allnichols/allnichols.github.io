@@ -9,3 +9,16 @@
 @function em($target, $context: $base-font-size){
   @return ($target / $context) * 1em;
 }
+
+//===============
+//Loops/ for Each
+//==============
+
+//@each for keyframes for the icons in the about divider==//
+@each $icons, $color in $icons {
+  @keyframes#{$icons}-change{
+    0%{fill:white;}
+    25%{fill:$color;}
+    100%{fill:white;}
+  }
+}

@@ -37,19 +37,19 @@ topBtn.addEventListener("click", (e)=> {
 //icons functionallity.
 
 const html = document.querySelector('.html')
-html.addEventListener("load", ()=> html.style.animation = "change .8s ease-in-out .5s");
+html.addEventListener("load", ()=> html.style.animation = "html-change .8s ease-in-out .5s");
 
 const css = document.querySelector('.css');
-css.addEventListener("load", ()=> css.style.animation = "change .8s ease-in-out .9s");
+css.addEventListener("load", ()=> css.style.animation = "css-change .8s ease-in-out .9s");
 
 const sass = document.querySelector('.sass');
 sass.addEventListener("load", ()=>{
-  sass.style.animation = "change .8s ease-in-out 1.3s";
+  sass.style.animation = "sass-change .8s ease-in-out 1.3s";
 });
 
 const js = document.querySelector('.js');
 js.addEventListener("load", ()=>{
-  js.style.animation = "change .8s ease-in-out 1.7s";
+  js.style.animation = "js-change .8s ease-in-out 1.7s";
 });
 
 const react = document.querySelector('.react');

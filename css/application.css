@@ -1,3 +1,31 @@
+@keyframes html-change {
+  0% {
+    fill: white; }
+  25% {
+    fill: #2988bc; }
+  100% {
+    fill: white; } }
+@keyframes css-change {
+  0% {
+    fill: white; }
+  25% {
+    fill: #ed8c72; }
+  100% {
+    fill: white; } }
+@keyframes sass-change {
+  0% {
+    fill: white; }
+  25% {
+    fill: pink; }
+  100% {
+    fill: white; } }
+@keyframes js-change {
+  0% {
+    fill: white; }
+  25% {
+    fill: yellow; }
+  100% {
+    fill: white; } }
 .project-request button, .img-overlay-content button {
   display: block;
   border: none;
@@ -523,13 +551,6 @@ hr {
   .img-overlay-content h2 {
     font-size: 25px; }
 
-@keyframes change {
-  0% {
-    fill: white; }
-  25% {
-    fill: #2988bc; }
-  100% {
-    fill: white; } }
 @keyframes spin {
   0% {
     fill: white;
