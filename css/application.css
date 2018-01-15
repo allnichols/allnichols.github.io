@@ -320,8 +320,7 @@ p {
   @media (min-width: 768px) {
     .nav {
       display: block;
-      align-self: center;
-      justify-content: start; } }
+      align-self: center; } }
   .nav li {
     display: inline;
     padding: 13px;
