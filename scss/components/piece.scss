@@ -73,12 +73,10 @@
 
 .img-overlay-content{
   align-self: center;
-  button{
-    @extend %button;
-  }
   a{
     text-decoration: none;
     color:black;
+    @extend %button;
   }
   h2{
     font-size: 25px;

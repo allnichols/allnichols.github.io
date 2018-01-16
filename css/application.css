@@ -26,7 +26,7 @@
     fill: yellow; }
   100% {
     fill: white; } }
-.project-request button, .img-overlay-content button {
+.project-request a, .img-overlay-content a {
   display: block;
   border: none;
   margin: 0 auto;
@@ -40,7 +40,7 @@
   font-family: "Source Serif Pro", serif;
   transition: .7s ease;
   transition-property: width; }
-  .project-request button:hover, .img-overlay-content button:hover {
+  .project-request a:hover, .img-overlay-content a:hover {
     width: 13.75em; }
 
 html {
@@ -482,11 +482,10 @@ hr {
     color: white;
     font-size: 15px;
     margin: 0.625em auto; }
-  .project-request button {
-    margin-top: 40px; }
-    .project-request button a {
-      color: black;
-      text-decoration: none; }
+  .project-request a {
+    margin-top: 40px;
+    color: black;
+    text-decoration: none; }
 
 .piece {
   position: relative;
