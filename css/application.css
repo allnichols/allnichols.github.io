@@ -424,8 +424,8 @@ hr {
 
 .img-num img {
   width: 100px;
-  border-radius: 100px;
-  border: 1px solid lightblue; }
+  border-radius: 50%;
+  border: 1px; }
   @media (min-width: 768px) {
     .img-num img {
       width: 7.8125em; } }

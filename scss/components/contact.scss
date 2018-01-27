@@ -35,8 +35,9 @@ hr{
 .img-num{
   img{
     width: 100px;
-    border-radius: 100px;
-    border: 1px solid lightblue;
+
+    border-radius: 50%;
+    border: 1px ;
     @include mq(medium){
       width: em(125px);
     }
